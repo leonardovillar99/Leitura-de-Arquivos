@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class LerArquivoTxt {
 	public static void main(String[] args) throws FileNotFoundException {
 		
-		FileInputStream entradaArquivo = new FileInputStream(new File("C:\\Users\\Leonardo\\eclipse-workspace\\Arquivos-TXT\\src\\arquivos\\arquivo.csv"));
+		FileInputStream entradaArquivo = new FileInputStream(new File("C:\\Users\\Leonardo\\git\\repository12\\Arquivos-TXT\\src\\arquivos\\arquivo.csv"));
 		
 		Scanner lerArquivo = new Scanner(entradaArquivo, "UTF-8");
 		
