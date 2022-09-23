@@ -39,7 +39,7 @@ public class Usuario implements Serializable {
 	
 	@Override
 	public int hashCode() {
-		return Objects.hash(cpf, login, senha);
+		return Objects.hash(cpf, login, nome, senha);
 	}
 	
 	@Override
@@ -51,15 +51,13 @@ public class Usuario implements Serializable {
 		if (getClass() != obj.getClass())
 			return false;
 		Usuario other = (Usuario) obj;
-		return Objects.equals(cpf, other.cpf) && Objects.equals(login, other.login)
+		return Objects.equals(cpf, other.cpf) && Objects.equals(login, other.login) && Objects.equals(nome, other.nome)
 				&& Objects.equals(senha, other.senha);
 	}
 	
 	@Override
 	public String toString() {
-		return "Usuario [login=" + login + ", senha=" + senha + ", cpf=" + cpf + "]";
-	}
-	
-	
+		return "Usuario [login=" + login + ", senha=" + senha + ", cpf=" + cpf + ", nome=" + nome + "]";
+	}		
 	
 }
