@@ -15,6 +15,8 @@ import org.apache.poi.ss.usermodel.Row;
 public class ApachePoi2 {
 	public static void main(String[] args) throws IOException {
 		
+		/* Aqui o arquivo está sendo lido */
+		
 		FileInputStream entrada = new FileInputStream(new File("C:\\Users\\Leonardo\\git\\repository12\\Arquivos-TXT\\src\\arquivos\\arquivo_excel.xls"));
 		
 		HSSFWorkbook hssfWorkbook = new HSSFWorkbook(entrada); /* Prepara a entrada do arquivo excel para leitura */
