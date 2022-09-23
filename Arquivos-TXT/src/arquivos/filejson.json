@@ -1,0 +1,14 @@
+[
+  {
+    "login": "admin",
+    "senha": "123456",
+    "cpf": "979.796.810-37",
+    "nome": "Leonardo Villar"
+  },
+  {
+    "login": "admin2",
+    "senha": "789456",
+    "cpf": "092.026.200-75",
+    "nome": "Giovanna Sousa"
+  }
+]
